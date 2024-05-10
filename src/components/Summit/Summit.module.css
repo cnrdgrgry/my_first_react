@@ -1,4 +1,9 @@
 .wrapper {
+  padding: 1rem;
+  max-width: 1000px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  color: #353535;
   background: #fff;
-  width: 100%;
 }

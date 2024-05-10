@@ -1,4 +1,16 @@
 .wrapper {
+  padding: 5vh;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: flex-start;
+  justify-content: center;
+  color: #353535;
   background: #fff;
-  width: 100%;
+}
+
+p {
+  flex: 1;
+  min-width: 30vh;
 }
