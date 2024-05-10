@@ -1,10 +1,9 @@
 .wrapper {
   padding: 1rem;
-  border: 1px solid lightgray;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: lightgrey;
+  background: #284b63;
 }
 
 .links {
@@ -13,13 +12,21 @@
 
 .activeLink,
 .inactiveLink {
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .activeLink {
-  color: #000;
+  color: #d9d9d9;
 }
 
 .inactiveLink {
-  color: #666;
+  color: #fff;
+  text-decoration: none;
+}
+
+.inactiveLink:hover {
+  color: #d9d9d9;
+  text-decoration: underline;
+  scale: 1.1;
+  transition: width 1s ease-in-out;
 }
