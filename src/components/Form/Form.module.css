@@ -9,6 +9,15 @@ textarea {
   font-size: 1rem;
 }
 
+.youtyped {
+  background-color: #fff;
+  font-weight: bold;
+}
+
+.renderedcont {
+  font-style: italic;
+}
+
 button {
   background-color: #3c6e71;
   color: #fff;
