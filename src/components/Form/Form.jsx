@@ -3,18 +3,15 @@ import styles from "./Form.module.css";
 
 export default function Form() {
   const [textContent, setTextContent] = React.useState("");
+  const [renderContent, setRenderContent] = React.useState("");
 
   function handleChange(event) {
-    setTextContent((prev) => {
-      return { ...prev, [event.target.value]: event.target.value };
-    });
+    setTextContent((prev) => event.target.value);
   }
 
   function handleSubmit(event) {
     event.preventDefault();
-    const textAreaContent = document.querySelector("#textContent").value;
-    console.log(`You typed ${textAreaContent}`);
-    return textAreaContent;
+    setRenderContent(textContent);
   }
 
   return (
@@ -31,7 +28,14 @@ export default function Form() {
         <br />
         <button type="submit">Print to Screen</button>
       </form>
-      <p>You Typed:</p>
+      <br />
+      <hr></hr>
+      {renderContent && (
+        <p className={styles.renderpara}>
+          <span className={styles.youtyped}>You Typed:</span>{" "}
+          <span className={styles.renderedcont}>"{renderContent}"</span>
+        </p>
+      )}
     </>
   );
 }
