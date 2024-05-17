@@ -3,9 +3,9 @@ import styles from "./SiteNav.module.css";
 
 function SiteNav() {
   const navLinks = [
-    { label: "Form", url: "/" },
-    { label: "Gallery", url: "/About" },
-    { label: "Redux", url: "/Summit" },
+    { label: "Home", url: "/" },
+    { label: "Gallery", url: "/Gallery" },
+    { label: "Redux", url: "/Redux" },
   ];
 
   return (
