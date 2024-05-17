@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "bicycles": false,
+    "sunset": true,
+    "image": "./images/image1.png"
+  },
+  {
+    "id": 2,
+    "name": true,
+    "sunset": false,
+    "image": "./images/image2.png"
+  },
+  {
+    "id": 3,
+    "bicycles": false,
+    "sunset": false,
+    "image": "./images/image3.png"
+  },
+  {
+    "id": 4,
+    "bicycles": false,
+    "sunset": false,
+    "image": "./images/image4.png"
+  },
+  {
+    "id": 5,
+    "bicycles": true,
+    "sunset": false,
+    "image": "./images/image5.png"
+  },
+  {
+    "id": 6,
+    "bicycles": true,
+    "sunset": true,
+    "image": "./images/image6.png"
+  },
+  {
+    "id": 7,
+    "bicycles": false,
+    "sunset": false,
+    "image": "./images/image7.png"
+  },
+  {
+    "id": 8,
+    "bicycles": false,
+    "sunset": true,
+    "image": "./images/image8.png"
+  },
+  {
+    "id": 9,
+    "bicycles": false,
+    "sunset": true,
+    "image": "./images/image9.png"
+  }
+]

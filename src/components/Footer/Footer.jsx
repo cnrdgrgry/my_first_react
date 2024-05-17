@@ -1,7 +1,4 @@
 import styles from "./Footer.module.css";
-import LinkedinIcon from "../../assets/images/linkedin.svg";
-import InstagramIcon from "../../assets/images/instagram.svg";
-import GithubIcon from "../../assets/images/github.svg";
 
 function Footer() {
   return (
@@ -14,21 +11,21 @@ function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={LinkedinIcon} alt="LinkedIn" />
+            <img src="/images/linkedin.svg" alt="LinkedIn" />
           </a>
           <a
             href="https://www.instagram.com/cnrdgrgry/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={InstagramIcon} alt="Instagram" />
+            <img src="/images/instagram.svg" alt="Instagram" />
           </a>
           <a
             href="https://github.com/cnrdgrgry"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={GithubIcon} alt="Github" />
+            <img src="/images/github.svg" alt="Github" />
           </a>
         </div>
       </div>
