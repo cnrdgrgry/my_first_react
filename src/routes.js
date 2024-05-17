@@ -1,7 +1,7 @@
 import Root from "./components/Root/Root";
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
-import Summit from "./components/Summit/Summit";
+import Gallery from "./components/Gallery/Gallery";
+import ReduxExample from "./components/ReduxExample/ReduxExample";
 
 const routes = [
   {
@@ -13,12 +13,12 @@ const routes = [
         element: <Home />,
       },
       {
-        path: "about",
-        element: <About />,
+        path: "Gallery",
+        element: <Gallery />,
       },
       {
-        path: "summit",
-        element: <Summit />,
+        path: "Redux",
+        element: <ReduxExample />,
       },
     ],
   },
