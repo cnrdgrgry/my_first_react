@@ -11,7 +11,7 @@ export default function GalleryItem({ bicycles, sunset, image, index }) {
       <p>
         Are there bicycles? <span>{bicycles ? "Yes" : "No"}</span>
       </p>
-      <img src={image} className={styles.galleryimg} alt="Gallery Image" />
+      <img src={image} className={styles.galleryimg} alt="Gallery" />
     </div>
   );
 }
