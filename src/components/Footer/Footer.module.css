@@ -5,5 +5,26 @@
   justify-content: center;
   color: white;
   background: #284b63;
-  padding: 2vh 2vw;
+  padding: 2vh 22vw;
+}
+
+.socials {
+  display: inline-flex;
+  gap: 1vw;
+}
+
+.socials img {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1vw;
+  flex: 1;
+}
+
+.socials img:hover {
+  opacity: 80%;
+}
+
+.socials img:active {
+  opacity: 100%;
+  scale: 1.1;
 }
