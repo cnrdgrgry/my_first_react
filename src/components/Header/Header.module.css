@@ -6,4 +6,6 @@
   justify-content: center;
   color: white;
   background: #284b63;
+  min-width: max-content;
+  flex: 2;
 }

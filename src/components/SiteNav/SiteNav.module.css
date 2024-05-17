@@ -1,13 +1,20 @@
 .wrapper {
-  padding: 1rem;
+  padding: 0.5rem;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background: #284b63;
+  width: 100%;
+  min-width: max-content;
+  flex: 1;
 }
 
 .links {
   display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  text-align: center;
+  padding: 1rem;
 }
 
 .activeLink,

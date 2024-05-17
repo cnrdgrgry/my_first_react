@@ -3,8 +3,8 @@ import styles from "./Header.module.css";
 function Header() {
   return (
     <div className={styles.wrapper}>
-      <h1>Playing with React</h1>
-      <h2>@cnrdgrgry</h2>
+      <h1>Playing in React</h1>
+      <h2>State, Effect & Redux</h2>
     </div>
   );
 }

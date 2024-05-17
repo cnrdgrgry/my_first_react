@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className={styles.wrapper}>
       <div>
-        <h3>An Example of using Hooks and Forms:</h3>
-        <Form />
+        <h3>An Example of using state, logic handlers, props with forms:</h3>
+        <Form classname={styles.form} />
       </div>
     </div>
   );

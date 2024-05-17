@@ -8,8 +8,10 @@ import MainContent from "../MainContent/MainContent";
 export default function Root() {
   return (
     <div className={styles.wrapper}>
-      <Header />
-      <SiteNav />
+      <div className={styles.flexcontainer}>
+        <Header />
+        <SiteNav />
+      </div>
       <MainContent />
       <Footer />
     </div>
