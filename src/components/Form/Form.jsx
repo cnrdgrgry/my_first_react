@@ -15,9 +15,10 @@ export default function Form() {
   }
 
   return (
-    <>
+    <div className={styles.container}>
       <form onSubmit={handleSubmit}>
         <textarea
+          className={styles.textArea}
           id="textContent"
           name="textContent"
           placeholder="Your Text Here"
@@ -37,6 +38,6 @@ export default function Form() {
           <span className={styles.renderedcont}>"{renderContent}"</span>
         </p>
       )}
-    </>
+    </div>
   );
 }
