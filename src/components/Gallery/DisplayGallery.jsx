@@ -9,7 +9,7 @@ export default function DisplayGallery(props) {
         <GalleryItem
           key={item.id}
           index={item.id}
-          name={item.bicycles}
+          bicycles={item.bicycles}
           sunset={item.sunset}
           image={item.image}
         />

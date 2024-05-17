@@ -7,7 +7,7 @@
   },
   {
     "id": 2,
-    "name": true,
+    "bicycles": true,
     "sunset": false,
     "image": "./images/image2.png"
   },
