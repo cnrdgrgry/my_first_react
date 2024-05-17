@@ -30,8 +30,9 @@ export default function Form() {
       </form>
       <br />
       <hr></hr>
+
       {renderContent && (
-        <p className={styles.renderpara}>
+        <p className={styles.renderedpara}>
           <span className={styles.youtyped}>You Typed:</span>{" "}
           <span className={styles.renderedcont}>"{renderContent}"</span>
         </p>

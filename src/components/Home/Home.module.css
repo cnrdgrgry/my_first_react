@@ -14,3 +14,7 @@ p {
   flex: 1;
   min-width: 30vh;
 }
+
+.form {
+  width: 40ch;
+}
