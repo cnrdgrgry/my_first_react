@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.wrapper}>
       <div>
         <h3>An Example of using state, logic handlers, props with forms:</h3>
-        <Form classname={styles.form} />
+        <Form className={styles.form} />
       </div>
     </div>
   );
